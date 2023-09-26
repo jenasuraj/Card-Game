@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+    </style>
+</head>
+<body>
+    <div id="main">
+        <h1>Entered</h1>
+        <h2 id="countel">0</h2>
+        <h2 id="savel">0</h2>
+        <button id="btn" onclick="btn()"> click here</button>
+   
+   <button id="save" onclick="save()">SAVE</button>
+     <p id="save-el">Previous entities:</p>    
+
+</div>
+
+
+    <script>
+        let hi=document.getElementById("save-el");
+        let hero=document.getElementById("countel");
+        let count = 0;
+        function btn()
+        {
+
+        count=count+1;
+       
+        hero.innerText=count; 
+        
+    }
+let saved =document.getElementById("savel");
+    function save()
+    { let countstr=count +" - "
+       hi.innerText +=countstr;
+       console.log(count); 
+       savel.innerText=count;  
+    }
+        </script>
+</body>
+</html>

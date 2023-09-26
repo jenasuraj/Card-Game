@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #error
+        {
+            color: red;
+        }
+        </style>
+</head>
+<body>
+    <p id="error">PURCHASE power</p>
+    <button id="click" onclick="click1()" ></button>
+
+
+    <script>
+        let error=document.getElementById("error");
+        function click1()
+        {
+            console.log("button clicked");
+            error.textContent="lol somekinda stuff is that?"
+        }
+    </script>
+</body>
+</html>
