@@ -89,7 +89,7 @@ return Math.floor(Math.random()*13)+1
 }
 
 
-//arrays
+//arrays implementation
 
 //let suraj=["jena ", "kumar ", "suraj"]
 //let newsuraj="legend";
